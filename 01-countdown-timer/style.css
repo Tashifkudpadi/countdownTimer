@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./snow.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 100vh;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  /* color: rgb(83, 100, 116); */
+}
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: 5rem;
+  /* margin-left: 15rem; */
+}
+.countdown-container {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: 15rem; */
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 1rem 2rem;
+  /* border: 2px solid red; */
+}
+.countdown-el span {
+  text-align: center;
+}
+.countdown-el span {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 420px) {
+  body {
+    background-image: url("./Dark\ night.jpg");
+    background-size: 359px 1305px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+  }
+}
